@@ -2,17 +2,17 @@ import gym
 import numpy as np
 
 
-//------------------------Create an environment--------------------------------------
+#------------------------Create an environment--------------------------------------
 
 env = gym.make('CartPole-v0')
 done = False
 cnt = 0
 
-//------------------------Reset the environment--------------------------------------
+#------------------------Reset the environment--------------------------------------
 
 observation = env.reset()
 
-//------------------------Running the simulation-------------------------------------
+#------------------------Running the simulation-------------------------------------
 
 while not done:
 
